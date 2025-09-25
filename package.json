@@ -1,0 +1,13 @@
+{
+  "name": "agente-ia",
+  "version": "1.0.0",
+  "description": "Asterisk ARI agente IA con API y systemd",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ari-client": "^3.1.1",
+    "express": "^4.19.2"
+  }
+}
